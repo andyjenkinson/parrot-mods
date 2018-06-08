@@ -8,6 +8,11 @@ To stop FreeFlight nagging to update drone firmware after it's been downloaded, 
 * https://sourceforge.net/projects/adbextractor/
 * https://sourceforge.net/projects/s-tar/ (install with brew)
 
+## Prepare phone
+
+1. [Enable USB debugging](https://www.technewscentral.com/how-to-enable-usb-debugging-and-developer-options-in-android-4-2-and-higher-android-4-2android-4-3android-4-4/id_7250)
+2. Connect via USB
+
 ## Install tools
 ```
 brew install star
