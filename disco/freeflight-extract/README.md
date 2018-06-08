@@ -33,7 +33,7 @@ What you're doing here is replacing the downloaded PLF firmware package (in my c
 Incidentally, it looks like you could also use this file to blacklist specific firmware versions. There's also some other cool stuff in here, including config params for Parrot's new Anafi drone.
 ```
 cp -p apps/com.parrot.freeflight3/r/app_embedded_firmware/plfFolder/090e/disco_update.plf apps/com.parrot.freeflight3/f/plfFolder/090e/disco_update.plf
-patch -p0 <../firmware_checker.patch apps/com.parrot.freeflight3/sp/firmware_checker.xml
+patch -p0 <firmware_checker.patch apps/com.parrot.freeflight3/sp/firmware_checker.xml
 ```
 ## Repack and restore
 ```
