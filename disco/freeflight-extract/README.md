@@ -19,6 +19,7 @@ brew install star
 unzip android-backup-tookit-20180521.zip
 unzip sdk-tools-darwin-4333796.zip
 tools/bin/sdkmanager --install platform-tools
+wget https://github.com/andyjenkinson/parrot-mods/raw/master/disco/freeflight-extract/firmware_checker.patch
 ```
 ## Backup and unpack
 ```
