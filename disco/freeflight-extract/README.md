@@ -29,6 +29,8 @@ tar -tf freeflight3.tar > freeflight3.list
 tar -xf freeflight3.tar
 ```
 ## Make modifications
+What you're doing here is replacing the downloaded PLF firmware package (in my case 1.7.0) with the version that ships with the app (1.4.1), and then modifying an XML file to tell the app that this is the latest version.
+Incidentally, it looks like you could also use this file to blacklist specific firmware versions. There's also some other cool stuff in here, including config params for Parrot's new Anafi drone.
 ```
 cp -p apps/com.parrot.freeflight3/r/app_embedded_firmware/plfFolder/090e/disco_update.plf apps/com.parrot.freeflight3/f/plfFolder/090e/disco_update.plf
 patch -p0 <../firmware_checker.patch apps/com.parrot.freeflight3/sp/firmware_checker.xml
