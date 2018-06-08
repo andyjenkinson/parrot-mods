@@ -1,8 +1,12 @@
+# Extracting FreeFlight
+
+To stop FreeFlight nagging to update drone firmware after it's been downloaded, you can extract and modify the app data before restoring it to your phone. These instructions are for Mac.
+
 ## Requirements
 
-https://developer.android.com/studio/#downloads (just the command line SDK)
-https://sourceforge.net/projects/adbextractor/
-https://sourceforge.net/projects/s-tar/
+* https://developer.android.com/studio/#downloads (download just the command line SDK)
+* https://sourceforge.net/projects/adbextractor/
+* https://sourceforge.net/projects/s-tar/ (install with brew)
 
 ## Install tools
 ```
